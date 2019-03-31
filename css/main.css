@@ -54,4 +54,10 @@ h1, .subhead{
 .yellow-cointainer ul{
     transform: skewY(4deg);   
 }
+.yellow-cointainer::after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    ;
+}
     
