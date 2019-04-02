@@ -93,11 +93,48 @@ h1, .subhead{
 }
 .grey-container{
     background-color: #f6f6f6;
-    padding: 4em 0 2em;
+    padding: 6em 0 3em;
     margin-top: -3%;
 }
+.grey-container figure:first-child{
+    margin-bottom: 4em;
+}
 
-
-
+figure{
+    margin:0;
+    padding: 0;
+}
+figcaption{
+    font-weight: bold;
+    color: #E1200A;
+}
+h2{
+    margin-top:8%;
+}
+.cta{
+    background-color: #E1200A;
+    width: calc(100%-1em);
+    display: block;
+    color: white;
+    border-radius: 20px;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 3% auto 7%;
+    position: relative;
+    z-index: 4;
+}
+.footer-container {
+    width: 100%;
+    background: #484848;
+    color:white;
+    margin-top: 15%;
+    padding: 3em 0;
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
+}
+.footer-container .container{
+    transform: skewY(-2deg);
+}
 
     
