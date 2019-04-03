@@ -20,7 +20,7 @@ ul {
     width: 130px;
     margin-bottom: 10%;
 }
-navv{
+.hide-mobile{
     display: none;
 }
 header{
